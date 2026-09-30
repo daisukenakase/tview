@@ -6,7 +6,7 @@
 
 - Go 1.26以降
 - Windows、Linux、macOS
-- JPEG、PNG、WebP
+- JPEG、PNG、WebP、GIF、BMP、TIFF（アニメーション GIF は先頭フレームを表示）
 - カラー対応ターミナル（非対応の場合はグレースケールASCIIへ自動切り替え）
 
 ## ビルド

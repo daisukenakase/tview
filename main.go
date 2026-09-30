@@ -4,13 +4,16 @@ import (
 	"flag"
 	"fmt"
 	"image"
+	_ "image/gif"
 	_ "image/jpeg"
 	_ "image/png"
 	"os"
 
 	"github.com/mattn/go-colorable"
 	"github.com/muesli/termenv"
+	_ "golang.org/x/image/bmp"
 	"golang.org/x/image/draw"
+	_ "golang.org/x/image/tiff"
 	_ "golang.org/x/image/webp"
 	"golang.org/x/term"
 )
