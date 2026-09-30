@@ -1,3 +1,4 @@
+// Package main renders images in the terminal using colored blocks or ASCII characters.
 package main
 
 import (
